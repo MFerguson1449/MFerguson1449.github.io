@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    }
+
+body {
+    color: white;
+    background: url("../img/grey-wood.jpg");
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+#container {
+    display: flex;
+    width: 80%;
+    height: 85vh;
+    border: 8px white solid;
+    margin: 5% 10% 5% 10%;
+    box-shadow: -35px 30px 55px #000;
+    background: black;
+    align-content: center;
+    justify-content: center;
+}
+
+#focus {
+    display: flex;
+    border: 0px white solid;
+    margin: 2% 3% 2% 3%;
+    height: 65vh;
+    width: 100%;
+    justify-content: space-around;
+    background: black;
+}
+
+#title {
+    font-size: 580%;
+    font-family: 'Anton', sans-serif;
+    font-weight: 150;
+    word-spacing: 1px;
+    line-height: 100%;
+    width: 55%;
+    padding-left: 5%;
+    text-align: right;
+}
+
+#blurb {
+    text-align: center;
+    position: absolute;;
+    top: 80%;
+    width: 60vw;
+}
+
+#pup {
+    text-align: center;
+    align-content: center;
+    border: 4px white solid;
+    padding: 0% 3px -2px 3%;
+    margin: 3% 3% 3% 3%;
+}
+
+#info {
+    font-size: 150%;
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    width: 40%;
+
+}
